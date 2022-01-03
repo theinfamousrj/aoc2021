@@ -25,7 +25,7 @@ else
     curl "https://adventofcode.com/${year}/day/${day}/input" \
     -H "Referer: https://adventofcode.com/${year}/day/${day}" \
     -H "Connection: keep-alive" \
-    -H "Cookie: _ga=GA1.2.93706315.1639417661; _gid=GA1.2.1515893530.1639417661; session=${session}" \
+    -H "Cookie: session=${session}" \
     -H "Upgrade-Insecure-Requests: 1" \
     -H "Sec-Fetch-Dest: document" \
     -H "Sec-Fetch-Mode: navigate" \
